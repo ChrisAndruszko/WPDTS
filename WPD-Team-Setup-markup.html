@@ -1,0 +1,50 @@
+<form method="post">
+	<table>
+		<tr>
+			<th>
+				<label for="server_url">Server Name:</label>
+			</th>
+			<td>
+				<input name="server_url" id="server_url" type="text" value="" class="regular-text">
+			</td>
+		</tr>
+		<tr>
+			<th>
+				<label for="user_name">User Name:</label>
+			</th>
+			<td>
+				<input name="user_name" id="user_name" type="text" value="" class="regular-text">
+			</td>
+		</tr>
+		<tr>
+			<th>
+				<label for="server_password">Database Password</label>
+			</th>
+			<td>
+				<input name="server_password" id="server_password" type="password" value="" class="regular-text">
+			</td>
+		</tr>
+		<tr>
+			<th>
+				<label for="database_name">Database Name</label>
+			</th>
+			<td>
+				<input name="database_name" id="database_name" type="text" value="" class="regular-text">
+			</td>
+		</tr>
+		<tr>
+			<th>
+				<label for="database_prefix">Database Prefix</label>
+			</th>
+			<td>
+				<input name="database_prefix" id="database_prefix" type="text" value="" class="regular-text"> <i>Leave blank if no prefix has been set.</i>
+			</td>
+
+		</tr>
+	</table>
+	<input type="submit" value="Import Users">
+</form>
+
+<p>
+	Note: The database host must allow remote connections and the database user must have the proper priveleges granted to select, insert, and update data.
+</p>
